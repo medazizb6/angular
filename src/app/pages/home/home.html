@@ -1,0 +1,32 @@
+<div class="container mt-4">
+  <input type="text" name="search" class="form-control mb-3" placeholder="Search by title" [(ngModel)]="searchTitle">
+
+  <h1 class="mb-3">{{ searchTitle }}</h1>
+
+  <div class="row g-4">
+    @for (conf of list; track conf.title) {
+      @if (matchesSearch(conf.title)) {
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">{{ conf.title | uppercase }}</h5>
+              <p class="card-text mb-1">
+                <i class="fa fa-calendar"></i> {{ conf.date }}
+              </p>
+              <p class="card-text">
+                <i class="fa fa-users"></i> Places disponibles : {{ conf.nbrMax - conf.nbrReservation }}
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <button class="btn btn-success w-100"
+                      [disabled]="conf.nbrMax == conf.nbrReservation"
+                      (click)="participate(conf)">
+                Participate
+              </button>
+            </div>
+          </div>
+        </div>
+      }
+    }
+  </div>
+</div>
