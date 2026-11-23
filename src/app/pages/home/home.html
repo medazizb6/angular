@@ -8,6 +8,9 @@
       @if (matchesSearch(conf.title)) {
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm">
+            <img [src]="conf.picture" class="card-img-top" [alt]="conf.title"
+                 style="height: 180px; object-fit: cover;">
+
             <div class="card-body">
               <h5 class="card-title">{{ conf.title | uppercase }}</h5>
               <p class="card-text mb-1">
@@ -17,6 +20,7 @@
                 <i class="fa fa-users"></i> Places disponibles : {{ conf.nbrMax - conf.nbrReservation }}
               </p>
             </div>
+
             <div class="card-footer bg-white border-0 pb-3">
               <button class="btn btn-success w-100"
                       [disabled]="conf.nbrMax == conf.nbrReservation"

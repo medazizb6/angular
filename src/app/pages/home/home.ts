@@ -37,7 +37,7 @@ change(): void {
         nbrMax: 20,
         nbrReservation: 19,
         picture:
-          'https://www.google.com/search?client=opera-gx&hs=hgp&sca_esv=5424022ca174e17e&sxsrf=AKL5yDheK5KXSEiFhu2dj41SXtid5E0HTA:1795424178324&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVSZ0SclCv1C3Nkltzojnu-NBip-0TY-yWfpcNuNDqsWDnnPEtwbjQRm8zJr_cAQYK0bJ0Ch8nj0EHp1MxeaZwAVuDIma0bh_L9rijVQQyOFkorKaTKgvvhrkvTC0ak4LPSgJhH3kuzZbNdP2y4QdRuOebuPr&q=image+angular&sa=X&ved=2ahUKEwjZsfqi3J2YAxUH2AIHHSHSF6sQtKgLegQIFhAB&biw=1488&bih=834&dpr=1.25#sv=CAMSUxoyKhBlLTdRMkx0Rm9lMHV2dlRNMg43UTJMdEZvZTB1dnZUTToOdEpoQWVyR1dmemM3UU0gBCoXCgFzEhBlLTdRMkx0Rm9lMHV2dlRNGAEwAVACGAcgh7vqxAJKCBACGAEgAigB',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoxrJ9a_0-bYvmsYk47I-eTWxJ0B4hrPWY7feGeT2sGw&s=10',
       },
       {
         title: 'conference ReactJS',
@@ -46,7 +46,7 @@ change(): void {
         nbrMax: 15,
         nbrReservation: 11,
         picture:
-          'https://www.google.com/search?client=opera-gx&hs=jZB&sca_esv=135b68bef58d2195&sxsrf=AKL5yDhIkcmbOPxoCRG6XUCcuhgDHBNY2g:1795428868781&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVdLmrLcUHX_SwxOCJnubtIIfkFBtNyvuNluxGIMJwZYVMqv6rIn83-ZO10wQYTBLYhCDabPsO4ZIy3vg3q-KBfs07d8x4lb2kgYniRiXfR7qoDHr6wni65oW4VkZvJFnVKCCaAJ_H7c2YeE5apbyS_c12yG_&q=reactjs&sa=X&ved=2ahUKEwjqo8Xf7Z2YAxW5hv0HHTL6HOwQtKgLegQIJBAB&biw=1488&bih=834&dpr=1.25#sv=CAMSUxoyKhBlLTFZUkNUbUJuRVJfbnNNMg4xWVJDVG1CbkVSX25zTToORml6MWlHQzVnbTBBY00gBCoXCgFzEhBlLTFZUkNUbUJuRVJfbnNNGAEwAVACGAcgx_-GiQpKCBACGAEgAigB ',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvWFWxYHGVco9w58fjAOXQB0uu2oHi_yw2DGIVeZ0edg&s=10',
       },
     ];
   }
